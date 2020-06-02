@@ -1,0 +1,13 @@
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\bin\Debug\netcoreapp3.1\P01 BasicQueuesOperation.exe
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\bin\Debug\netcoreapp3.1\P01 BasicQueuesOperation.deps.json
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\bin\Debug\netcoreapp3.1\P01 BasicQueuesOperation.runtimeconfig.json
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\bin\Debug\netcoreapp3.1\P01 BasicQueuesOperation.runtimeconfig.dev.json
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\bin\Debug\netcoreapp3.1\P01 BasicQueuesOperation.dll
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\bin\Debug\netcoreapp3.1\P01 BasicQueuesOperation.pdb
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\obj\Debug\netcoreapp3.1\P01 BasicQueuesOperation.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\obj\Debug\netcoreapp3.1\P01 BasicQueuesOperation.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\obj\Debug\netcoreapp3.1\P01 BasicQueuesOperation.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\obj\Debug\netcoreapp3.1\P01 BasicQueuesOperation.AssemblyInfo.cs
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\obj\Debug\netcoreapp3.1\P01 BasicQueuesOperation.dll
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\obj\Debug\netcoreapp3.1\P01 BasicQueuesOperation.pdb
+C:\Users\pc\Desktop\Programming\SoftUniHomework\C#\C#-Advance\STACKS AND QUEUES\P01 BasicQueuesOperation\obj\Debug\netcoreapp3.1\P01 BasicQueuesOperation.genruntimeconfig.cache

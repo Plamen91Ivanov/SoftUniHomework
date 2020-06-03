@@ -4,7 +4,11 @@ using System.Text;
 
 namespace PlayersAndMonsters.Elfs
 {
-    class MuseElf
+    public class MuseElf : Elf
     {
+        public MuseElf(string usename, int level)
+            : base(usename, level)
+        {
+        }
     }
 }

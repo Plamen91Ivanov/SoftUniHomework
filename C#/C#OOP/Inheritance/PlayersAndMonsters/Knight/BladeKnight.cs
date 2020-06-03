@@ -4,7 +4,11 @@ using System.Text;
 
 namespace PlayersAndMonsters.Knight
 {
-    class BladeKnight
+    public class BladeKnight : DarkKnight
     {
+        public BladeKnight(string usename, int level) 
+            : base(usename, level)
+        {
+        }
     }
 }

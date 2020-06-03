@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace PlayersAndMonsters
+namespace Restourant
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {

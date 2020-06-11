@@ -74,16 +74,16 @@ namespace Weaponsmith
                         {
                             evenList.Add(input[i]);
                         }
-                    }
+                    } 
                      
                 }
-                 
+             
                 command = Console.ReadLine(); 
             } 
 
             foreach(var item in oddList)
             {
-                Console.Write(item + " ");
+                Console.Write(item + " "); 
             }
 
             Console.WriteLine();

@@ -6,9 +6,23 @@ namespace RecursionBasics
     {
         static void Main(string[] args)
         {
-            int result = Pow(2, 3);
-            int factorialResult = Factorial(5);
-            Console.WriteLine(factorialResult);
+            Test(0);
+        }
+
+
+        
+        public static void Test(int x)
+        {
+            if (x == 10)
+            {
+                return;
+            }
+
+            Console.WriteLine($"Pre: {x}");
+
+            Test(x + 1);
+
+            Console.WriteLine($"Post : {x}");
         }
 
         public static int Factorial(int x)

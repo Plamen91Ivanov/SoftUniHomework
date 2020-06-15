@@ -4,7 +4,9 @@ using System.Text;
 
 namespace AdoNetExercises
 {
-    class Configuration
+    public static class Configuration
     {
+        public const string ConnectionString = "Server=(localdb)\\MSSQLLocalDB;Database=MinionsDB;Integrated Security=true";
     }
 }
+ 

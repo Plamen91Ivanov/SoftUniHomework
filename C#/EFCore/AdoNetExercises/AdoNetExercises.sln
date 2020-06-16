@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetExercises", "AdoNetExercises\AdoNetExercises.csproj", "{00B219B8-288C-4399-BC94-651C10C35A5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoNetExercises", "AdoNetExercises\AdoNetExercises.csproj", "{00B219B8-288C-4399-BC94-651C10C35A5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises\Exercises.csproj", "{E4877A07-5D0F-453A-A700-7CA3B6D990D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises", "Exercises\Exercises.csproj", "{E4877A07-5D0F-453A-A700-7CA3B6D990D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchName", "SearchName\SearchName.csproj", "{14945E90-452B-45BB-911E-6847A58B553B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E4877A07-5D0F-453A-A700-7CA3B6D990D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4877A07-5D0F-453A-A700-7CA3B6D990D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4877A07-5D0F-453A-A700-7CA3B6D990D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14945E90-452B-45BB-911E-6847A58B553B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14945E90-452B-45BB-911E-6847A58B553B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14945E90-452B-45BB-911E-6847A58B553B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14945E90-452B-45BB-911E-6847A58B553B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

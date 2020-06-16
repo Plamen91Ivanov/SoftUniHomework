@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises", "Exercises\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchName", "SearchName\SearchName.csproj", "{14945E90-452B-45BB-911E-6847A58B553B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddMinion", "AddMinion\AddMinion.csproj", "{529EB156-5A91-48F6-B7DA-D9A638B77DAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{14945E90-452B-45BB-911E-6847A58B553B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14945E90-452B-45BB-911E-6847A58B553B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14945E90-452B-45BB-911E-6847A58B553B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529EB156-5A91-48F6-B7DA-D9A638B77DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529EB156-5A91-48F6-B7DA-D9A638B77DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529EB156-5A91-48F6-B7DA-D9A638B77DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529EB156-5A91-48F6-B7DA-D9A638B77DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

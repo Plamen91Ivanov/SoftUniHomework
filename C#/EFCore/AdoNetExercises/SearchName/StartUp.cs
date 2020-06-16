@@ -53,7 +53,7 @@ namespace SearchName
 
                             Console.WriteLine($"{rowNumber}. {name}: {age}");
                         }
-
+                         
                         if (!reader.HasRows)
                         {
                             Console.WriteLine("No minions");

@@ -8,11 +8,21 @@ namespace DefineClass
     {
         private string name;
         private int age;
-
-        public Person(string name , int age)
+        
+        public Person()
         {
-            this.name = Name;
+            this.name = "No name";
+            this.age = 10;
+        }
+        public Person(int age)
+            :this()
+        {
             this.age = Age;
+        }
+        public Person(string name , int age) 
+        {
+            this.Name = name;
+            this.Age = age;
         }
 
         public string Name

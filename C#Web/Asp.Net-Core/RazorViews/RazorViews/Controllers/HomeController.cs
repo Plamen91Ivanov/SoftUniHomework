@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using RazorViews.Models;
+using RazorViews.ViewModels.Home;
 
 namespace RazorViews.Controllers
 {
@@ -21,7 +22,13 @@ namespace RazorViews.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var viewModel = new IndexVIewModel
+            {
+                Year = DateTime.UtcNow.Year,
+                Message = this.configuration["YouTube:ApiKey"],
+            };
+            
+            return View(viewModel);
         }
 
         public IActionResult Privacy()

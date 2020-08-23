@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Panda.Data;
+using Panda.Domain;
 
 namespace Panda
 {
@@ -28,6 +29,8 @@ namespace Panda
             services.AddControllersWithViews();
             services.AddDbContext<PandaDbContext>(options =>
                 options.UseSqlServer(this.Configuration.GetConnectionString("DefaultConnection")));
+            services.AddIdentity<PandaUser, PandaUserRole>()
+                .AddEntityFrameworkStores<PandaDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -13,3 +13,14 @@ function toggle() {
         $button.textContent = "More";
     } 
 }
+
+function bar(){
+        const progressBar = document.getElementsByClassName('progress-bar')
+        const pBar = progressBar[0]
+        console.log(progressBar)
+        console.log(pBar)
+        const number = 20;
+        pBar.style = 'width: ${number}%;'; 
+        pBar.textContent = "80%";
+
+}

@@ -1,15 +1,18 @@
 function solve() {
+
    let sendButton = document.getElementById('send');
    let input = document.getElementById('chat_input');
-   let messageField = document.getElementById('chat_box_body');
-
-   document.addEventListener('click', (e) =>{
-         console.log(e)   
-      })
+   let messageField = document.getElementById('chat_messages');
 
    sendButton.addEventListener('click', (e) =>{
-      console.log('button')
-   })
+         
+      let newElement = document.createElement('div');
+      newElement.innerText = input.value;
+      newElement.classList.add('message', 'my-message');
+      messageField.appendChild(newElement);
+      input.value = "";
+      })
+ 
 }
 
 

@@ -47,18 +47,21 @@ function addMeal(mealData, random = false) {
     const btn = meal.querySelector(".meal-body .fav-btn");
     btn.addEventListener("click", () => {
         if (btn.classList.contains("active")) {
-            removeMealFLS(mealData.idMeal);
+            removeMealLS(mealData.idMeal);
             btn.classList.remove("active");
         }else{
             addMealLS(mealData.idMeal);
             btn.classList.add("active");
         }
+
+        
+        fetchFavMeal();
        
     })
     meals.appendChild(meal);
 }
 
-function removeMealFLS(mealId){ 
+function removeMealLS(mealId){ 
     const mealIds = getMealLS();
     localStorage.setItem('mealIds', JSON.stringify(mealIds.filter(id => id !== mealId)));
 }
@@ -74,6 +77,9 @@ function getMealLS(){
 }
 
 async function fetchFavMeal() {
+
+    favoriteContainer.innerHTML = "";
+    
     const mealIds = getMealLS();
 
     const meals = [];
@@ -94,7 +100,15 @@ function addMealFav(mealData) {
       <li><img 
       src="${mealData.strMealThumb}" 
       alt="${mealData.strMeal}">
-      <span>${mealData.strMeal}</span></li> 
+      <span>${mealData.strMeal}</span></li>
+      <button class="clear"><i class=" fas fa-window-close"></i></button> 
     ` 
+    const btn = favMeal.querySelector('.clear');
+
+    btn.addEventListener('click', ()=>{
+        removeMealLS(mealData.idMeal)
+        fetchFavMeal();
+    })
+
     favoriteContainer.appendChild(favMeal);
 }

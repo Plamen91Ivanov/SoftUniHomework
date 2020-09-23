@@ -1,11 +1,11 @@
 const quizData = [
     {
-        question:'question',
-        a:'a',
+        question:'na kolko godini e irina',
+        a:'1',
         b:'b',
         c:'c',
         d:'d',
-        correct:'a'
+        correct:'1'
     },
     {
         question:'question1',
@@ -80,7 +80,7 @@ submitBut.addEventListener('click', () => {
             
                 loadQuiz();
                 
-                }else{
+                }else{ 
                     quiz.innerHTML = `<h2>You answered correct at ${score}/${quizData.length}</h2>
                     <button onclick="location.reload()">Reload</button>`
                 } 

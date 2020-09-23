@@ -13,8 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
     margin: 20px;
-    min-height: 100vh;
-    max-width: 100%;
+    min-height: 100vh; 
 } 
 .quiz-container {
     background-color: #fff;

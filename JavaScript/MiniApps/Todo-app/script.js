@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) => {
 });
 
 function addToDo(todo) { 
-    const todoText = input.value;
+    let todoText = input.value;
 
     if (todo) {
         todoText = todo.text;
@@ -63,5 +63,5 @@ function updaiteLS() {
     });
 
     localStorage.setItem('todos', JSON.stringify(todos));
-    console.log('hi')
+    
 }

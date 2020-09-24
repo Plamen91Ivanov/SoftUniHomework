@@ -3,20 +3,58 @@ const APIURL =
 const IMGPATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCHAPI =
     "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
+ 
+const main = document.getElementById('main');
+const form = document.getElementById('form');
+const search = document.getElementById('search');
 
-    async function getMovie() {
-        const resp = await fetch(APIURL);
+
+    getMovie(APIURL);
+
+    async function getMovie(url) {
+        const resp = await fetch(url);
         const respData = await resp.json();
-
-        console.log(respData);
-        respData.results.forEach(movie => {
-            const img = document.createElement('img');
-            img.src = IMGPATH + movie.poster_path;
-
-            document.body.appendChild(img);
-        });
-
-        return respData;
+        
+        showMovies(respData.results);
     }
 
-    getMovie();
+    function showMovies(movies){
+
+        main.innerHTML = '';
+        movies.forEach(movie => {
+            const movieEl = document.createElement('div');
+            movieEl.classList.add('movie');
+
+            movieEl.innerHTML = `  
+            <img src="${IMGPATH + movie.poster_path}" alt="${movie.title}">
+            <div class="movie-info">
+                <h3>${movie.title}</h3>
+                <span class="${getClassByRate(movie.vote_average)}">${movie.vote_average}</span>
+                <div class="overview"><h4>Overview :</h4></h3>${movie.overview}</div>
+            </div>`
+         
+            main.appendChild(movieEl);
+        });
+    }
+
+    function getClassByRate(vote){
+
+        if (vote >= 8) {
+            return 'green';
+        }else if(vote >= 5){
+            return 'orange';
+        }else {
+            return 'red';
+        }
+    };
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const searchTerm = search.value;
+
+        if (searchTerm) {
+            getMovie(SEARCHAPI + searchTerm);
+            serarch.value = '';
+        }
+    });

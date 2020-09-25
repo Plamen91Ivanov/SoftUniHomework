@@ -31,7 +31,7 @@ function encodeAndDecodeMessages() {
       console.log(decodeText)
 
       $textareas[1].value = decodeText;
-
+      
    }
    
 }

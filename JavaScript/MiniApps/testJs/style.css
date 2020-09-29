@@ -9,3 +9,27 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+.buttons {  
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+#user-btn {
+    background-color: #7dbb95;
+    margin: 30px;
+    width: 250px;
+    height: 50;
+    border: none;
+    box-shadow: 0 0 2px 2px #7fa387;
+}
+
+#doctor-btn {
+    background-color: #7dbb95;
+    margin: 30px;
+    width: 250px;
+    height: 50;
+    border: none;
+    box-shadow: 0 0 2px 2px #413a3a;
+}

@@ -7,7 +7,7 @@
 body { 
     font-family: 'Poppins', sans-serif;
     margin: 0; 
-    display: flex;
+    display: inline;
     justify-content: center;
 }
 
@@ -44,10 +44,7 @@ div {
     height: 50rem;
 }
 
-.card-comments {
-
-    border: 2px solid black;
-    box-shadow: 0 0 2px 2px rgb(46, 42, 42);
+.card-comments { 
     display: inline;
     padding: 10px;
     padding-right: 20px; 
@@ -56,8 +53,8 @@ div {
 }
 
 .card-comment {
-    border: 1px solid black;
-    box-shadow: 0 0 1px 1px rgb(46, 42, 42);
+    border: 2px solid rgb(217, 219, 235);
+    box-shadow: 0 0 2px 2px rgb(12, 194, 185);
     margin-bottom: 20px;
     width: 100%;
     height: 30%;

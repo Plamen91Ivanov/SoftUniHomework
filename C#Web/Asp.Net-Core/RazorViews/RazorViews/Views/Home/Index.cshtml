@@ -1,4 +1,6 @@
-﻿
+﻿@model RazorViews.ViewModels.Home.IndexVIewModel
+@using RazorViews.Services
+@inject IStringManipulation StringManipulation
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -6,5 +8,18 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1> 
     <h1>@Model.Year</h1>
-    <h1>@Model.Message</h1>
+    <h1>@Model.Message</h1> 
+    <p>@DateTime.UtcNow.DayOfWeek</p>
 </div>
+
+<ul>
+    @foreach (var name in Model.Names)
+    {
+        <li>@StringManipulation.MakeFirstLetterUpper(name)</li>
+    }
+</ul>
+@section Links {
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="http://google.com">Google @DateTime.UtcNow.Year</a>
+    </li>
+}

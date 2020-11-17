@@ -10,5 +10,7 @@ namespace RazorViews.ViewModels.Home
         public string Message { get; set; }
         
         public int Year { get; set; }
+
+        public IEnumerable<string> Names { get; set; }
     }
 }

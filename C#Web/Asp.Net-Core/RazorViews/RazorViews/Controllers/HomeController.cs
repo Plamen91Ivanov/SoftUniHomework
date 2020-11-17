@@ -26,6 +26,7 @@ namespace RazorViews.Controllers
             {
                 Year = DateTime.UtcNow.Year,
                 Message = this.configuration["YouTube:ApiKey"],
+                Names = new List<string> { "pesho", "gosho","todor" },
             };
             
             return View(viewModel);
